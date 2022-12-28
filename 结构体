@@ -1,0 +1,14 @@
+#include <stdio.h>
+struct information
+{
+	int num;
+	char size;
+
+};
+int main()
+{
+	struct  information a = { 12, "BIG" };
+	printf("%d\n%s\n", a.num, a.size);
+	system("pause");
+	return 0;
+}
